@@ -17,10 +17,3 @@ pip3 install stem
 pip3 install instagram-py
 cd $HOME
 wget -O ~/instapy-config.json "https://git.io/v5DGy"
-cd ./i
-cd /data/data/com.termux/files/usr/etc/tor
-rm torrc
-cd ./i
-mv torrc /data/data/com.termux/files/usr/etc/tor
-cd $HOME
-tor
